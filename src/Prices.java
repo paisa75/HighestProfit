@@ -1,13 +1,13 @@
 public class Prices {
 
-    public static int  maxProfit(int[] prices) {
+    public static int maxProfit(int[] prices) {
         int buy = prices[0];
         int curPrice = 0;
         int maxPrice = 0;
 
-        for(int i = 0 ; i < prices.length; i++){
+        for (int i = 0; i < prices.length; i++) {
             int sell = prices[i];
-            if(buy > sell){
+            if (buy > sell) {
                 buy = sell;
             }
             curPrice = sell - buy;
