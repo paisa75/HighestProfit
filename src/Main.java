@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the number of shares");
-        int ArraySize = scan.nextInt();
-        int[] prices = new int[ArraySize];
+        int arraySize = scan.nextInt();
+        int[] prices = new int[arraySize];
 //        System.out.println("Please enter the stock price");
-        for (int i = 0; i < ArraySize; i++) {
+        for (int i = 0; i < arraySize; i++) {
             System.out.println("Please enter the stock price");
             prices[i] = scan.nextInt();
         }
