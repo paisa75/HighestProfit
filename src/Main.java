@@ -13,6 +13,6 @@ public class Main {
         }
 
 //        int prices[] = {7, 1, 5, 3, 4, 6, 2};
-        System.out.println("Your highest possible profit is:" + Prices.maxProfit(prices));
+        System.out.println("**********Your highest possible profit is:" + Prices.maxProfit(prices));
     }
 }
